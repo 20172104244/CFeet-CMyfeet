@@ -55,7 +55,7 @@ void CMyfeet::display()
 }
 int main()
 {
-	CMyfeet p;
+	CMyfeet p;//定义对象
 	p.setfeet(3);
 	p.setinches(8);
 	p.display();
