@@ -55,12 +55,17 @@ void CMyfeet::display()
 }
 int main()
 {
-	CFeet *p;
+	CMyfeet p;
+	p.setfeet(3);
+	p.setinches(8);
+	p.display();
+	p.CFeet::display();
+	/*CFeet *p;
 	p = new CMyfeet;//把CMyfeet变成了无名对象。是跟CMyfeet Afeet; p=&Afeet;一样的
 	p->setfeet(3);// （->)的作用是跟(.)一样的
 	p->setinches(8);
 	p->display();//派生类
-	p->CFeet::display();//基类
+	p->CFeet::display();//基类*/
     return 0;
 }
 
