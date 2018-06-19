@@ -59,7 +59,7 @@ int main()
 	p.setfeet(3);
 	p.setinches(8);
 	p.display();
-	p.CFeet::display();
+	p.CFeet::display();//予作用符号
 	/*CFeet *p;
 	p = new CMyfeet;//把CMyfeet变成了无名对象。是跟CMyfeet Afeet; p=&Afeet;一样的
 	p->setfeet(3);// （->)的作用是跟(.)一样的
